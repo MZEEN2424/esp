@@ -1,10 +1,10 @@
 getgenv().EspSettings = {
-	TeamCheck = false,
+	TeamCheck = true,
 	ToggleKey = "RightAlt",
 	RefreshRate = 3, -- how fast the esp updates (milliseconds)
 	MaximumDistance = 999999999999999, -- only renders players within this distance
-	FaceCamera = false, -- Makes esp appear 2D
-	AlignPoints = false, -- Improves 2D effect; only works while FaceCamera is enabled
+	FaceCamera = true, -- Makes esp appear 2D
+	AlignPoints = true, -- Improves 2D effect; only works while FaceCamera is enabled
 	-- AlignPoints: This may cause esp to have abnormal behavior when looking from certain angles
 	MouseVisibility = {
 		Enabled = true, -- makes any drawing objects transparent when they are near your mouse
@@ -69,7 +69,7 @@ getgenv().EspSettings = {
 	Names = {
 		Enabled = true,
 		Transparency = 1,
-		Color = Color3.fromRGB(255,255,5),
+		Color = Color3.fromRGB(255,255,255),
 		UseTeamColor = true,
 		RainbowColor = false,
 		Outline = true,
