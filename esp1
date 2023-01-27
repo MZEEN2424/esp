@@ -23,7 +23,7 @@ getgenv().EspSettings = {
 		}
 	},
 	Highlights = {
-		Enabled = false,
+		Enabled = true,
 		Players = {}, -- put player usernames into this table to 'highlight' them
 		Transparency = 1,
 		Color = Color3.fromRGB(255, 150, 0),
@@ -132,3 +132,4 @@ getgenv().EspSettings = {
 	}
 } -- v1.6.14
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalEsp.lua", "UniversalEsp"))()
+
