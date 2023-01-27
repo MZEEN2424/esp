@@ -23,7 +23,7 @@ getgenv().EspSettings = {
 		}
 	},
 	Highlights = {
-		Enabled = false,
+		Enabled = true,
 		Players = {}, -- put player usernames into this table to 'highlight' them
 		Transparency = 1,
 		Color = Color3.fromRGB(255, 150, 0),
