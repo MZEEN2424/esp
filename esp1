@@ -1,7 +1,7 @@
 getgenv().EspSettings = {
 	TeamCheck = true,
 	ToggleKey = "RightAlt",
-	RefreshRate = 3, -- how fast the esp updates (milliseconds)
+	RefreshRate = 10, -- how fast the esp updates (milliseconds)
 	MaximumDistance = 999999999999999, -- only renders players within this distance
 	FaceCamera = false, -- Makes esp appear 2D
 	AlignPoints = false, -- Improves 2D effect; only works while FaceCamera is enabled
@@ -116,7 +116,7 @@ getgenv().EspSettings = {
 		OutlineThickness = 1,
 		Thickness = 1,
 		Filled = false,
-		Scale = 0.9
+		Scale = 0.5
 	},
 	LookTracers = {
 		Enabled = true,
